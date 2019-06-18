@@ -1,0 +1,9 @@
+n=int(input())
+a=int(input())
+b=int(input())
+if(n>a)and(n>b):
+    print(n)
+elif(n<a)and(a>b):
+    print(a)
+else:
+    print(b)
